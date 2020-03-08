@@ -42,9 +42,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android.Export" />
-    <Reference Include="ReactNative.Droid">
-      <HintPath>..\..\binding\ReactNative.Droid\bin\Debug\ReactNative.Droid.dll</HintPath>
-    </Reference>
     <Reference Include="Square.OkIO">
       <HintPath>..\..\lib\Square.OkIO.dll</HintPath>
     </Reference>
@@ -126,6 +123,10 @@
     <ProjectReference Include="..\SharedCode\SharedCode.csproj">
       <Project>{f36f3b28-93d9-42f9-935e-a35739b6360c}</Project>
       <Name>SharedCode</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\binding\ReactNative.Droid\ReactNative.Droid.csproj">
+      <Project>{093D248C-E7EF-4C74-B1A0-38E0A332E736}</Project>
+      <Name>ReactNative.Droid</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

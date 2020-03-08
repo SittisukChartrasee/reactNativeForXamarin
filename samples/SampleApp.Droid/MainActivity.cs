@@ -44,7 +44,7 @@ namespace SampleApp.Droid
                     .AddPackage(new ApiPackage())
                     .AddPackage(new SvgPackage())
 #if DEBUG
-                    .SetUseDeveloperSupport(true)
+                    .SetUseDeveloperSupport(false)
 #else
                     .SetUseDeveloperSupport(false)
 #endif
