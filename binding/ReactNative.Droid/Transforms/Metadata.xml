@@ -182,7 +182,7 @@
   <attr path="/api/package[@name='com.facebook.react.uimanager']/class[@name='ReactShadowNodeImpl']/method[@name='getReactTag']" name="propertyName"></attr>
   <!-- ReactRawTextManager -->
   <attr path="/api/package[@name='com.facebook.react.views.text']/class[@name='ReactRawTextManager']/method[@name='createViewInstance' and count(parameter)=1 and parameter[1][@type='com.facebook.react.uimanager.ThemedReactContext']]" name="managedReturn">Java.Lang.Object</attr>
-  <attr path="/api/package[@name='com.facebook.react.views.text']/class[@name='ReactRawTextManager']/method[@name='createViewInstance' and count(parameter)=1 and parameter[1][@type='com.facebook.react.uimanager.ThemedReactContext']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.facebook.react.views.text']/class[@name='ReactRawTextManager']/method[@name='createViewInstance' and count(parameter)=1 and parameter[1][@type='com.facebook.react.uimanager.ThemedReactContext']]" name="visibility">public</attr>
   <remove-node path="/api/package[@name='com.facebook.react.views.text']/class[@name='ReactRawTextManager']/method[@name='updateExtraData' and count(parameter)=2 and parameter[1][@type='android.view.View'] and parameter[2][@type='java.lang.Object']]" />
   <add-node path="/api/package[@name='com.facebook.react.views.text']/class[@name='ReactRawTextManager']">
     <method abstract="false" deprecated="not deprecated" final="false" name="updateExtraData" native="false" return="void" static="false" synchronized="false" visibility="public">

@@ -51,11 +51,11 @@
     <Compile Include="RetentionAnnotation.cs" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="..\node_modules\react-native\android\com\facebook\react\react-native\0.57.4\react-native-0.57.4.aar">
-      <Link>Jars\react-native-0.57.4.aar</Link>
-    </LibraryProjectZip>
     <None Include="Additions\AboutAdditions.txt" />
     <None Include="Jars\AboutJars.txt" />
+    <LibraryProjectZip Include="..\..\..\reactNative59o8\node_modules\react-native\android\com\facebook\react\react-native\0.59.8\react-native-0.59.8.aar">
+      <Link>Jars\react-native-0.59.8.aar</Link>
+    </LibraryProjectZip>
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\EnumFields.xml" />
