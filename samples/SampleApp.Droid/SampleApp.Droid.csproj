@@ -100,7 +100,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ToastModule.cs" />
     <Compile Include="ApiPackage.cs" />
-    <Compile Include="ReactNativeApplication.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
