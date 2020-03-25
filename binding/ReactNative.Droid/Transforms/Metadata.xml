@@ -237,4 +237,12 @@
   <attr path="/api/package[@name='com.facebook.react.views.scroll']/class[@name='ReactHorizontalScrollContainerViewManager']/method[@name='createViewInstance' and count(parameter)=1 and parameter[1][@type='com.facebook.react.uimanager.ThemedReactContext']]" name="visibility">protected</attr>
   <!-- ReactSliderManager -->
   <attr path="/api/package[@name='com.facebook.react.views.slider']/class[@name='ReactSliderManager']/method[@name='createViewInstance' and count(parameter)=1 and parameter[1][@type='com.facebook.react.uimanager.ThemedReactContext']]" name="managedReturn">Java.Lang.Object</attr>
+    
+    <attr path="/api/package[@name='com.facebook.react.shell']/class[@name='MainReactPackage']/method[@name='getNativeModules' and count(parameter)=1 and parameter[1][@type='com.facebook.react.bridge.ReactApplicationContext']]" name="visibility">protected</attr>
+    
+    <add-node path="/api/package[@name='com.facebook.react.views.text']/class[@name='ReactRawTextManager']">
+        <method abstract="false" deprecated="not deprecated" final="false" name="CreateViewInstance" native="false" return="Java.Lang.Object" static="false" synchronized="false" visibility="protected">
+          <parameter name="p0" type="Com.Facebook.React.Uimanager.ThemedReactContext" />
+        </method>
+    </add-node>
 </metadata>

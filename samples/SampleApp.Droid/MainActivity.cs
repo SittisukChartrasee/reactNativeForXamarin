@@ -51,7 +51,7 @@ namespace SampleApp.Droid
                     .SetInitialLifecycleState(LifecycleState.Resumed)
                     .Build();
 
-            mReactRootView.StartReactApplication(mReactInstanceManager, "MyReactNativeApp", null);
+            mReactRootView.StartReactApplication(mReactInstanceManager, "KbankOnboarding", null);
 
             SetContentView(mReactRootView);
         }
