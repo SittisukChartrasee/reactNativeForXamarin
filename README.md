@@ -1,5 +1,9 @@
 # Xamarin + react-native binding & sample project [![Build Status](https://www.bitrise.io/app/b3d5e7123fea85f8/status.svg?token=kL4Osd_HE45B1xGIH9wqVA&branch=master)](https://www.bitrise.io/app/b3d5e7123fea85f8)
 
+## important if you can't run react native v.0.59.8
+1. go to SampleApp/ReactNative.Droid/Jars/android-jsc-r####.aar click right build action click "none" and rebuild ReactNative.Droid
+2. go to SampleApp/ReactNative.Droid/Jars/android-jsc-r####.aar click right build action click "LibraryProjectZip" and rebuild ReactNative.Droid
+
 ## Added Comments
 1. React-native-svg support was added for iOS
 2. JS methods can take arguments
