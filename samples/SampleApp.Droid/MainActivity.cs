@@ -10,6 +10,8 @@ using Android.Content;
 using Android.Net;
 using Android.Provider;
 using Com.Horcrux.Svg;
+using Com.Beefe.Picker;
+using Com.Learnium.RNDeviceInfo;
 
 namespace SampleApp.Droid
 {
@@ -43,6 +45,8 @@ namespace SampleApp.Droid
                     .AddPackage(new MainReactPackage())
                     .AddPackage(new ApiPackage())
                     .AddPackage(new SvgPackage())
+                    .AddPackage(new PickerViewPackage())
+                    .AddPackage(new RNDeviceInfo())
 #if DEBUG
                     .SetUseDeveloperSupport(false)
 #else
