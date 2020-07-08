@@ -53,9 +53,6 @@
   <ItemGroup>
     <None Include="Additions\AboutAdditions.txt" />
     <None Include="Jars\AboutJars.txt" />
-    <LibraryProjectZip Include="..\..\..\reactNative59o8\node_modules\react-native\android\com\facebook\react\react-native\0.59.8\react-native-0.59.8.aar">
-      <Link>Jars\react-native-0.59.8.aar</Link>
-    </LibraryProjectZip>
     <None Include="Jars\android-jsc-r174650.aar" />
   </ItemGroup>
   <ItemGroup>
@@ -116,6 +113,11 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedJar Include="Jars\react-native-svg-8.0.10.jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <LibraryProjectZip Include="..\react-native-0.59.8.aar">
+      <Link>Jars\react-native-0.59.8.aar</Link>
+    </LibraryProjectZip>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>
